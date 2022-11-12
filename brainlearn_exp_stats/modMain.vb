@@ -9,11 +9,6 @@
         Dim depart As Integer, moteur_court As String, keyBIN As String, keyUCI As String
         Dim tabBIN(0) As Byte
 
-        If My.Computer.FileSystem.GetFileInfo(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) & "\Documents\Visual Studio 2013\Projects\brainlearn_exp_stats\brainlearn_exp_stats\bin\Debug\brainlearn_exp_stats.exe").LastWriteTime > My.Computer.FileSystem.GetFileInfo(My.Application.Info.AssemblyName & ".exe").LastWriteTime Then
-            MsgBox("Il existe une version plus récente de ce programme !", MsgBoxStyle.Information)
-            End
-        End If
-
         fichierBIN = Replace(Command(), """", "")
         If fichierBIN = "" Or Not My.Computer.FileSystem.FileExists(fichierBIN) Then
             End
@@ -21,10 +16,7 @@
 
         fichierINI = My.Computer.Name & ".ini"
         fichierECO = "ouvertures.txt"
-        moteurBIN = "E:\JEUX\ARENA CHESS 3.5.1\Engines\BrainLearn\20T BrainLearn 13.1 x64 BMI2.exe"
-        If My.Computer.Name = "PLEXI" Then
-            moteurBIN = "D:\JEUX\ARENA CHESS 3.5.1\Engines\BrainLearn\20T BrainLearn 13.1 x64 PCNT.exe"
-        End If
+        moteurBIN = "brainLearn.exe"
         If My.Computer.FileSystem.FileExists(fichierINI) Then
             chaine = My.Computer.FileSystem.ReadAllText(fichierINI)
             If chaine <> "" And InStr(chaine, vbCrLf) > 0 Then
