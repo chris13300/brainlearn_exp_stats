@@ -1,7 +1,5 @@
 # brainlearn_exp_stats
-Tool to get some statistics about an experience.bin file.<br>
-compatible with "brainlearn-like" experience.bin file<p>
-
+Tool to get some statistics about a "brainlearn-like" experience.bin file<p>
 Prerequisites :<br>
 rename BUREAU.ini to YOUR-COMPUTER-NAME.ini<br>
 set moteurBIN to your_brainlearn_engine.exe<br>
