@@ -1,0 +1,16 @@
+A30 Anglaise Symetrique : c2c4 c7c5
+A20 Fianchetto Retarde  : c2c4 e7e5
+A13 Anglaise            : c2c4 e7e6
+A15 Anglo-Indienne      : c2c4 g8f6
+A43 Vieille Benoni      : d2d4 c7c5
+D00 Partie Pion Dame    : d2d4 d7d5
+A45 Indienne            : d2d4 g8f6
+B20 Defense Sicilienne  : e2e4 c7c5
+B10 Caro-Kann           : e2e4 c7c6
+C20 Debut Ouvert        : e2e4 e7e5
+C00 Francaise           : e2e4 e7e6
+A04 Debut Reti          : g1f3 c7c5 | g1f3 e7e5
+A06 Debut Reti          : g1f3 d7d5
+A05 Debut Reti          : g1f3 g8f6
+A00 Ouverture Trident   : g2g3 c7c5
+A00 Debut Benko         : g2g3 d7d5 | g2g3 e7e5
